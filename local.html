@@ -33,15 +33,29 @@
             font-size: 15px;
         }
 
-        .two-columns .column {
-            width: 100%;
-            max-width: 300px;
-            display: inline-block;
+
+
+        @media (max-width: 599.98px) {
+
+            .columns .three-columns {
+                width: 50%;
+                display: inline-block;
+                text-align: center;
+                /* margin: 0 auto; */
+            }
+
+            .columns .one-column {
+                width: 100%;
+                max-width: 300px;
+                display: block;
+                margin: 0 auto;
+                /* padding: 0px 200px; */
+                /* text-align: center; */
+            }
+
         }
 
-        @media (min-width: 599.98px) {}
-
-        @media (min-width: 399.98px) {}
+        @media (max-width: 399.98px) {}
 
 
         /* Custom Dark Mode Colors */
@@ -144,7 +158,7 @@
                                             <tr>
                                                 <td style="padding: 10px 10px 10px 10px;">
                                                     <a href="">
-                                                        <img width="80" src="https://imgur.com/qKkUjpt.png" alt=""
+                                                        <img width="80" src="./images/one.png" alt=""
                                                             style="display:block;width:100%;">
                                                     </a>
                                                 </td>
@@ -162,22 +176,26 @@
                                                 <td style="line-height: 1.5;
                                                             letter-spacing:0px;">
                                                     <span>
-                                                        <a href="" style="text-decoration: none; color: black;">
+                                                        <a href="https://nodejs.org/en/docs/"
+                                                            style="text-decoration: none; color: black;">
                                                             <strong style="padding: 0px 4px;">Hair Products</strong>
                                                         </a>
                                                     </span>
                                                     <span>
-                                                        <a href="" style="text-decoration: none; color: black;">
+                                                        <a href="https://nodejs.org/en/docs/"
+                                                            style="text-decoration: none; color: black;">
                                                             <strong style="padding: 0px 4px;">Hair Tools</strong>
                                                         </a>
                                                     </span>
                                                     <span>
-                                                        <a href="" style="text-decoration: none; color: black;">
+                                                        <a href="https://nodejs.org/en/docs/"
+                                                            style="text-decoration: none; color: black;">
                                                             <strong style="padding: 0px 4px;">New</strong>
                                                         </a>
                                                     </span>
                                                     <span>
-                                                        <a href="" style="text-decoration: none; color: black;">
+                                                        <a href="https://nodejs.org/en/docs/"
+                                                            style="text-decoration: none; color: black;">
                                                             <strong style="padding: 0px 4px;">HowTo&Inspo</strong>
                                                         </a>
                                                     </span>
@@ -200,17 +218,15 @@
 
                         <!--[if (gte mso 9)|(IE)]>
                                 <table width="100%"><tr><td><img width="600" 
-                                    src="https://imgur.com/7XgmVmo.png" 
+                                    src="./images/two.jpg" 
                                     alt="" style="text-align: center; width: 600px; border: 0; 
                                     text-decoration:none; vertical-align: baseline;"></td></tr>
                                 </table>
                                     <div style="display:none">
                             <![endif] -->
 
-
-                        <img width="600" src="https://imgur.com/7XgmVmo.png" alt="" style="text-align:center; width: 600px; border: 0; 
+                        <img width="600" src="./images/two.jpg" alt="" style="text-align:center; width: 600px; border: 0; 
                             text-decoration:none; vertical-align: baseline;">
-
 
                         <!--[if (gte mso 9)|(IE)]>
                                     </div>
@@ -223,7 +239,7 @@
 
                         <!--[if (gte mso 9)|(IE)]>
                                 <table width="100%"><tr><td><img width="600" 
-                                    src="https://imgur.com/mTfW3j0.jpg" 
+                                    src="./images/three.jpg" 
                                     alt="" style="text-align: center; width: 600px; border: 0; 
                                     text-decoration:none; vertical-align: baseline;"></td></tr>
                                 </table>
@@ -231,7 +247,7 @@
                             <![endif] -->
 
 
-                        <img width="600" src="https://imgur.com/mTfW3j0.jpg" alt="" style="text-align:center; width: 600px; border: 0; 
+                        <img width="600" src="./images/three.jpg" alt="" style="text-align:center; width: 600px; border: 0; 
                             text-decoration:none; vertical-align: baseline;">
 
 
@@ -261,7 +277,7 @@
 
                         <!--[if (gte mso 9)|(IE)]>
                                 <table width="100%"><tr><td><img width="600" 
-                                    src="https://imgur.com/Dm60wC6.jpg" 
+                                    src="./images/four.jpg" 
                                     alt="" style="text-align: center; width: 600px; border: 0; 
                                     text-decoration:none; vertical-align: baseline;"></td></tr>
                                 </table>
@@ -269,7 +285,7 @@
                             <![endif] -->
 
 
-                        <img width="600" src="https://imgur.com/Dm60wC6.jpg" alt="" style="text-align:center; width: 600px; border: 0; 
+                        <img width="600" src="./images/four.jpg" alt="" style="text-align:center; width: 600px; border: 0; 
                             text-decoration:none; vertical-align: baseline;">
 
 
@@ -284,7 +300,7 @@
 
                         <!--[if (gte mso 9)|(IE)]>
                                 <table width="100%"><tr><td><img width="600" 
-                                    src="https://imgur.com/KOP1Pix.jpg" 
+                                    src="./images/five.jpg" 
                                     alt="" style="text-align: center; width: 600px; border: 0; 
                                     text-decoration:none; vertical-align: baseline;"></td></tr>
                                 </table>
@@ -292,7 +308,7 @@
                             <![endif] -->
 
 
-                        <img width="600" src="https://imgur.com/KOP1Pix.jpg" alt="" style="text-align:center; width: 600px; border: 0; 
+                        <img width="600" src="./images/five.jpg" alt="" style="text-align:center; width: 600px; border: 0; 
                             text-decoration:none; vertical-align: baseline;">
 
 
@@ -307,7 +323,7 @@
 
                         <!--[if (gte mso 9)|(IE)]>
                                 <table width="100%"><tr><td><img width="600" 
-                                    src="https://imgur.com/6svAsnM.jpg" 
+                                    src="./images/six.jpg" 
                                     alt="" style="text-align: center; width: 600px; border: 0; 
                                     text-decoration:none; vertical-align: baseline;"></td></tr>
                                 </table>
@@ -315,7 +331,7 @@
                             <![endif] -->
 
 
-                        <img width="600" src="https://imgur.com/6svAsnM.jpg" alt="" style="text-align:center; width: 600px; border: 0; 
+                        <img width="600" src="./images/six.jpg" alt="" style="text-align:center; width: 600px; border: 0; 
                             text-decoration:none; vertical-align: baseline;">
 
 
@@ -330,7 +346,7 @@
 
                         <!--[if (gte mso 9)|(IE)]>
                                 <table width="100%"><tr><td><img width="600" 
-                                    src="https://imgur.com/V3trgQJ.jpg" 
+                                    src="./images/seven.jpg" 
                                     alt="" style="text-align: center; width: 600px; border: 0; 
                                     text-decoration:none; vertical-align: baseline;"></td></tr>
                                 </table>
@@ -338,7 +354,7 @@
                             <![endif] -->
 
 
-                        <img width="600" src="https://imgur.com/V3trgQJ.jpg" alt="" style="text-align:center; width: 600px; border: 0; 
+                        <img width="600" src="./images/seven.jpg" alt="" style="text-align:center; width: 600px; border: 0; 
                             text-decoration:none; vertical-align: baseline;">
 
 
@@ -353,7 +369,7 @@
 
                         <!--[if (gte mso 9)|(IE)]>
                                 <table width="100%"><tr><td><img width="600" 
-                                    src="https://imgur.com/mAOlfLX.jpg" 
+                                    src="./images/eight.jpg" 
                                     alt="" style="text-align: center; width: 600px; border: 0; 
                                     text-decoration:none; vertical-align: baseline;"></td></tr>
                                 </table>
@@ -361,7 +377,7 @@
                             <![endif] -->
 
 
-                        <img width="600" src="https://imgur.com/mAOlfLX.jpg" alt="" style="text-align:center; width: 600px; border: 0; 
+                        <img width="600" src="./images/eight.jpg" alt="" style="text-align:center; width: 600px; border: 0; 
                             text-decoration:none; vertical-align: baseline;">
 
 
@@ -376,7 +392,7 @@
 
                         <!--[if (gte mso 9)|(IE)]>
                                 <table width="100%"><tr><td><img width="600" 
-                                    src="https://imgur.com/HfILgCC.jpg" 
+                                    src="./images/nine.jpg" 
                                     alt="" style="text-align: center; width: 600px; border: 0; 
                                     text-decoration:none; vertical-align: baseline;"></td></tr>
                                 </table>
@@ -384,7 +400,7 @@
                             <![endif] -->
 
 
-                        <img width="600" src="https://imgur.com/HfILgCC.jpg" alt="" style="text-align:center; width: 600px; border: 0; 
+                        <img width="600" src="./images/nine.jpg" alt="" style="text-align:center; width: 600px; border: 0; 
                             text-decoration:none; vertical-align: baseline;">
 
 
@@ -399,7 +415,7 @@
 
                         <!--[if (gte mso 9)|(IE)]>
                                 <table width="100%"><tr><td><img width="600" 
-                                    src="https://imgur.com/jYexZWq.jpg" 
+                                    src="./images/ten.jpg" 
                                     alt="" style="text-align: center; width: 600px; border: 0; 
                                     text-decoration:none; vertical-align: baseline;"></td></tr>
                                 </table>
@@ -407,7 +423,7 @@
                             <![endif] -->
 
 
-                        <img width="600" src="https://imgur.com/jYexZWq.jpg" alt="" style="text-align:center; width: 600px; border: 0; 
+                        <img width="600" src="./images/ten.jpg" alt="" style="text-align:center; width: 600px; border: 0; 
                             text-decoration:none; vertical-align: baseline;">
 
 
@@ -422,7 +438,7 @@
 
                         <!--[if (gte mso 9)|(IE)]>
                                 <table width="100%"><tr><td><img width="600" 
-                                    src="https://imgur.com/V1Q5qIb.jpg" 
+                                    src="./images/eleven.jpg" 
                                     alt="" style="text-align: center; width: 600px; border: 0; 
                                     text-decoration:none; vertical-align: baseline;"></td></tr>
                                 </table>
@@ -430,7 +446,7 @@
                             <![endif] -->
 
 
-                        <img width="600" src="https://imgur.com/V1Q5qIb.jpg" alt="" style="text-align:center; width: 600px; border: 0; 
+                        <img width="600" src="./images/eleven.jpg" alt="" style="text-align:center; width: 600px; border: 0; 
                             text-decoration:none; vertical-align: baseline;">
 
 
@@ -445,7 +461,7 @@
 
                         <!--[if (gte mso 9)|(IE)]>
                                 <table width="100%"><tr><td><img width="600" 
-                                    src="https://imgur.com/rA2HaED.jpg" 
+                                    src="./images/twelve.jpg" 
                                     alt="" style="text-align: center; width: 600px; border: 0; 
                                     text-decoration:none; vertical-align: baseline;"></td></tr>
                                 </table>
@@ -453,7 +469,7 @@
                             <![endif] -->
 
 
-                        <img width="600" src="https://imgur.com/rA2HaED.jpg" alt="" style="text-align:center; width: 600px; border: 0; 
+                        <img width="600" src="./images/twelve.jpg" alt="" style="text-align:center; width: 600px; border: 0; 
                             text-decoration:none; vertical-align: baseline;">
 
 
@@ -468,7 +484,7 @@
 
                         <!--[if (gte mso 9)|(IE)]>
                                 <table width="100%"><tr><td><img width="600" 
-                                    src="https://imgur.com/dbgj6NJ.jpg" 
+                                    src="./images/thirteen.jpg" 
                                     alt="" style="text-align: center; width: 600px; border: 0; 
                                     text-decoration:none; vertical-align: baseline;"></td></tr>
                                 </table>
@@ -476,7 +492,7 @@
                             <![endif] -->
 
 
-                        <img width="600" src="https://imgur.com/dbgj6NJ.jpg" alt="" style="text-align:center; width: 600px; border: 0; 
+                        <img width="600" src="./images/thirteen.jpg" alt="" style="text-align:center; width: 600px; border: 0; 
                             text-decoration:none; vertical-align: baseline;">
 
 
@@ -487,16 +503,16 @@
                 </tr>
 
                 <tr>
-                    <td>
+                    <td class="columns">
                         <table width="100%" cellspacing="0" cellpadding="0" border="0" role="presentation">
                             <tr>
-                                <td>
+                                <td class="three-columns">
                                     <!--[if (gte mso 9)|(IE)]>
                                     <table width="100%">
                                         <tr>
                                             <td style="padding: 0px 50px">
                                                 <img width="100"               
-                                                src="https://imgur.com/dKMZUe9.jpg" 
+                                                src="./images/fourteen.jpg" 
                                                 alt="" style="text-align: left; border: 0; 
                                                 text-decoration:none; vertical-align: baseline;">
                                             </td>
@@ -504,19 +520,19 @@
                                     </table>
                                     <div style="display:none">
                                     <![endif] -->
-                                    <img src="https://imgur.com/dKMZUe9.jpg" alt="" style="max-width: 100%;">
+                                    <img src="./images/fourteen.jpg" alt="" style="max-width: 100%;">
                                     <!--[if (gte mso 9)|(IE)]>
                                     </div>
                                     <![endif] -->
                                 </td>
 
-                                <td>
+                                <td class="three-columns">
                                     <!--[if (gte mso 9)|(IE)]>
                                     <table width="100%">
                                         <tr>
                                             <td style="padding: 0px 50px">
                                                 <img width="100"               
-                                                src="https://imgur.com/WHUl0NX.jpg" 
+                                                src="./images/fifteen.jpg" 
                                                 alt="" style="text-align: center; border: 0; 
                                                 text-decoration:none; vertical-align: baseline;">
                                             </td>
@@ -524,19 +540,19 @@
                                     </table>
                                     <div style="display:none">
                                     <![endif] -->
-                                    <img src="https://imgur.com/WHUl0NX.jpg" alt="" style="max-width: 100%;">
+                                    <img src="./images/fifteen.jpg" alt="" style="max-width: 100%;">
                                     <!--[if (gte mso 9)|(IE)]>
                                     </div>
                                     <![endif] -->
                                 </td>
 
-                                <td>
+                                <td class="one-column">
                                     <!--[if (gte mso 9)|(IE)]>
                                     <table width="100%">
                                         <tr>
                                             <td style="padding: 0px 50px">
                                                 <img width="100"              
-                                                src="https://imgur.com/c9ti5yG.jpg" 
+                                                src="./images/sixteen.jpg" 
                                                 alt="" style="text-align: right; border: 0; 
                                                 text-decoration:none; vertical-align: baseline;">
                                             </td>
@@ -544,7 +560,7 @@
                                     </table>
                                     <div style="display:none">
                                     <![endif] -->
-                                    <img src="https://imgur.com/c9ti5yG.jpg" alt="" style="max-width: 100%;">
+                                    <img src="./images/sixteen.jpg" alt="" style="max-width: 100%;">
                                     <!--[if (gte mso 9)|(IE)]>
                                     </div>
                                     <![endif] -->
@@ -564,7 +580,7 @@
                                         <tr>
                                             <td style="padding: 0px 50px">
                                                 <img width="100"               
-                                                src="https://imgur.com/e0vAREN.jpg" 
+                                                src="./images/seventeen.jpg" 
                                                 alt="" style="text-align: left; border: 0; 
                                                 text-decoration:none; vertical-align: baseline;">
                                             </td>
@@ -572,7 +588,7 @@
                                     </table>
                                     <div style="display:none">
                                     <![endif] -->
-                                    <img src="https://imgur.com/e0vAREN.jpg" alt="" style="max-width: 100%;">
+                                    <img src="./images/seventeen.jpg" alt="" style="max-width: 100%;">
                                     <!--[if (gte mso 9)|(IE)]>
                                     </div>
                                     <![endif] -->
@@ -584,7 +600,7 @@
                                         <tr>
                                             <td style="padding: 0px 50px">
                                                 <img width="100"              
-                                                src="https://imgur.com/qHh8rhm.jpg" 
+                                                src="./images/eighteen.jpg" 
                                                 alt="" style="text-align: center; border: 0; 
                                                 text-decoration:none; vertical-align: baseline;">
                                             </td>
@@ -592,7 +608,7 @@
                                     </table>
                                     <div style="display:none">
                                     <![endif] -->
-                                    <img src="https://imgur.com/qHh8rhm.jpg" alt="" style="max-width: 100%;">
+                                    <img src="./images/eighteen.jpg" alt="" style="max-width: 100%;">
                                     <!--[if (gte mso 9)|(IE)]>
                                     </div>
                                     <![endif] -->
@@ -604,7 +620,7 @@
                                         <tr>
                                             <td style="padding: 0px 50px">
                                                 <img width="100"               
-                                                src="https://imgur.com/e7xFzPW.jpg" 
+                                                src="./images/nineteen.jpg" 
                                                 alt="" style="text-align: right; border: 0; 
                                                 text-decoration:none; vertical-align: baseline;">
                                             </td>
@@ -612,7 +628,7 @@
                                     </table>
                                     <div style="display:none">
                                     <![endif] -->
-                                    <img src="https://imgur.com/e7xFzPW.jpg" alt="" style="max-width: 100%;">
+                                    <img src="./images/nineteen.jpg" alt="" style="max-width: 100%;">
                                     <!--[if (gte mso 9)|(IE)]>
                                     </div>
                                     <![endif] -->
@@ -632,7 +648,7 @@
                                         <tr>
                                             <td style="text-align: center;">
                                                 <img width="50"                
-                                                src="https://imgur.com/MvaCCjR.png" 
+                                                src="./images/twenty.png" 
                                                 alt="" style="border: 0; 
                                                 text-decoration:none; vertical-align: baseline;">
                                             </td>
@@ -640,7 +656,7 @@
                                     </table>
                                     <div style="display:none">
                                     <![endif] -->
-                                    <img src="https://imgur.com/MvaCCjR.png" alt="" style="width: 50%;">
+                                    <img src="./images/twenty.png" alt="" style="width: 50%;">
                                     <!--[if (gte mso 9)|(IE)]>
                                     </div>
                                     <![endif] -->
@@ -652,7 +668,7 @@
                                         <tr>
                                             <td style="text-align: center;">
                                                 <img width="50"               
-                                                src="https://imgur.com/9KIf7zq.png" 
+                                                src="./images/twentyone.png" 
                                                 alt="" style="border: 0; 
                                                 text-decoration:none; vertical-align: baseline;">
                                             </td>
@@ -660,7 +676,7 @@
                                     </table>
                                     <div style="display:none">
                                     <![endif] -->
-                                    <img src="https://imgur.com/9KIf7zq.png" alt="" style="width: 50%;">
+                                    <img src="./images/twentyone.png" alt="" style="width: 50%;">
                                     <!--[if (gte mso 9)|(IE)]>
                                     </div>
                                     <![endif] -->
@@ -672,7 +688,7 @@
                                         <tr>
                                             <td style="text-align: center;">
                                                 <img width="50"                
-                                                src="https://imgur.com/1tAPa5T.png" 
+                                                src="./images/twentytwo.png" 
                                                 alt="" style="border: 0; 
                                                 text-decoration:none; vertical-align: baseline;">
                                             </td>
@@ -680,7 +696,7 @@
                                     </table>
                                     <div style="display:none">
                                     <![endif] -->
-                                    <img src="https://imgur.com/1tAPa5T.png" alt="" style="width: 50%;">
+                                    <img src="./images/twentytwo.png" alt="" style="width: 50%;">
                                     <!--[if (gte mso 9)|(IE)]>
                                     </div>
                                     <![endif] -->
@@ -692,7 +708,7 @@
                                         <tr>
                                             <td style="text-align: center;">
                                                 <img width="50"                
-                                                src="https://imgur.com/tAwIKsl.png" 
+                                                src="./images/twentythree.png" 
                                                 alt="" style="border: 0; 
                                                 text-decoration:none; vertical-align: baseline;">
                                             </td>
@@ -700,7 +716,7 @@
                                     </table>
                                     <div style="display:none">
                                     <![endif] -->
-                                    <img src="https://imgur.com/tAwIKsl.png" alt="" style="width: 80%;">
+                                    <img src="./images/twentythree.png" alt="" style="width: 80%;">
                                     <!--[if (gte mso 9)|(IE)]>
                                     </div>
                                     <![endif] -->
@@ -712,11 +728,11 @@
 
                 <tr class="separate">
                     <td style="padding: 0px 10px 0px 10px;vertical-align: top;">
-                        <table width="600" align="center" cellspacing="0" cellpadding="0" border="0" role="presentation"
+                        <table width="100%" cellspacing="0" cellpadding="0" border="0" role="presentation"
                             style="min-width: 100%;">
 
                             <tr>
-                                <td width="600" height="0" style="font-size: 0px;
+                                <td height="0" style="font-size: 0px;
                                 line-height: 0px;border-bottom-style: dotted;
                                 border-top-width: 0px;
                                 padding-top: 20px;
@@ -724,7 +740,6 @@
                                 border-right-width: 0px;
                                 border-left-width: 0px;
                                 border-color: #b6b7b4;
-                                width: 100%;
                                 ">
 
                                     &nbsp;
@@ -794,11 +809,11 @@
                                 border-left-width: 0px;
                                 border-color: #b6b7b4;
                                 ">
-                                    <a href=""><img width="25" src="https://imgur.com/cHYLSZP.png" alt=""></a>
-                                    <a href=""><img width="25" src="https://imgur.com/W69IGQW.png" alt=""></a>
-                                    <a href=""><img width="25" src="https://imgur.com/lidbZhu.png" alt=""></a>
-                                    <a href=""><img width="25" src="https://imgur.com/cikGpWa.png" alt=""></a>
-                                    <a href=""><img width="25" src="https://imgur.com/uj4OvBm.png" alt=""></a>
+                                    <a href=""><img width="25" src="./images/twentyfour.png" alt=""></a>
+                                    <a href=""><img width="25" src="./images/twentyfive.png" alt=""></a>
+                                    <a href=""><img width="25" src="./images/twentysix.png" alt=""></a>
+                                    <a href=""><img width="25" src="./images/twentyseven.png" alt=""></a>
+                                    <a href=""><img width="25" src="./images/twentyeight.png" alt=""></a>
                                 </td>
                             </tr>
 
